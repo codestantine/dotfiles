@@ -1,0 +1,33 @@
+# ~/.config/alacritty/alacritty.yml
+
+env:
+  COLORTERM: truecolor
+
+colors:
+  primary:
+    background: '0x232136'  # Example: dark background (Catppuccin Mocha)
+    foreground: '0xdcd7ba'  # Optional: nice readable light color
+
+  # Optional: selection colors
+  selection:
+    text: '0x000000'
+    background: '0xffffff'
+
+font:
+  size: 18.5
+  normal:
+    family: "Iosevka Nerd Font"
+    style: Regular
+
+window:
+  decorations: full
+  startup_mode: Fullscreen
+
+key_bindings:
+  - { key: F11, action: ToggleFullscreen }
+keyboard:
+  bindings:
+    - { key: Super,     mods: None,     action: None }
+mouse:
+  hide_when_typing: true
+
